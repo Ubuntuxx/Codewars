@@ -1,9 +1,10 @@
-# Parse nice int from char problem
+# Basic Mathematical Operations
 
-You ask a small girl,"How old are you?" She always says, "x years old", where x is a random number between 0 and 9.
+Your task is to create a function that does four basic mathematical operations.
 
-Write a program that returns the girl's age (0-9) as an integer.
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
 
-Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number.
+Examples(Operator, value1, value2) --> output
 
-[Parse nice int from char problem](https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1/train/java)
+[Basic Mathematical Operations](https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/java)

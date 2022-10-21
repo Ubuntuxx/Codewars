@@ -1,16 +1,14 @@
 public class Kata {
-    public static int howOld(final String herOld) {
-        String number = String.valueOf(herOld.charAt(0));
-        int valor = Integer.parseInt(number);
-        return valor;
+
+    public static Integer basicMath(String op, int v1, int v2) {
+        if (op.contains("/")) {
+            return v1 / v2;
+        } else if (op.contains("+")) {
+            return v1 + v2;
+        } else if (op.contains("-")) {
+            return v1 - v2;
+        } else {
+            return v1 * v2;
+        }
     }
-
-
-    /*Other solutions
-     * public class CharProblem {
-     *  public static int howOld(final String herOld) {
-     *  return Character.getNumericValue(herOld.charAt(0));
-  }
-}
-     */
 }
