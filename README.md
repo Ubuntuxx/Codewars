@@ -1,8 +1,9 @@
-# Returning Strings
+# Parse nice int from char problem
 
-Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
+You ask a small girl,"How old are you?" She always says, "x years old", where x is a random number between 0 and 9.
 
-[Make sure you type the exact thing I wrote or the program may not execute properly]
+Write a program that returns the girl's age (0-9) as an integer.
 
+Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number.
 
-[Ejercicio Codewars](https://www.codewars.com/kata/55a70521798b14d4750000a4/train/java)
+[Parse nice int from char problem](https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1/train/java)
